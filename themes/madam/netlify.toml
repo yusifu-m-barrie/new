@@ -1,0 +1,8 @@
+[build]
+  publish = "madam/public"
+  command = "hugo serve"
+  
+[build.environment]
+  HUGO_VERSION = "0.76.0"
+  HUGO_THEME = "repo"
+  HUGO_BASEURL = "/"
